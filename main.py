@@ -106,7 +106,7 @@ def complementary_strand(seq):
     for i in seq:
         if i in reverse:
             base += reverse[i]    
-    print_sequence("Reverse complement strand: ",base[::-1])
+    print_sequence("Reverse complement: ",base[::-1])
 
 def rna_producer(seq):
     rna_seq= seq.replace("T", "U")

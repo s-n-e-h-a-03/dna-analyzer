@@ -1,4 +1,4 @@
-
+import sys
 CODONS ={
     "UUU": "F", "UUC": "F",
     "UUA": "L", "UUG": "L",
@@ -43,8 +43,13 @@ CODONS ={
 def main():
     sequences={}
     current_header =""
+    if len(sys.argv) != 2:
+        print("Usage: python main.py <fasta_file>")
+        return
+
+    filename = sys.argv[1]
     try: 
-        with open("sample_data_GFP.fasta", "r") as file:
+        with open(filename, "r") as file:
             for line in file:
                 line=line.strip()
                 if not line:
@@ -152,5 +157,5 @@ def ORF_generator(aa_seq):
         print_sequence("ORF Sequence: ", longest_seq)
     else:
         print("No valid ORFs found")
-   
-main()
+if __name__ == "__main__":
+    main()

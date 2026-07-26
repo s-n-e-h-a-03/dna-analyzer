@@ -1,23 +1,23 @@
 # 🧬 DNA Sequence Analyzer
 
-A Python-based DNA sequence analysis tool developed as part of my bioinformatics learning journey. This project reads DNA sequences from a FASTA file and performs several common sequence analysis tasks, including GC content calculation, reverse complement generation, transcription, translation, and open reading frame (ORF) detection.
+This DNA Sequence Analyzer was built as a part of my summer learning in the field of bioinformatics. This project reads DNA sequences from a FASTA file and performs several common sequence analysis tasks, including GC content calculation, reverse complement generation, transcription, translation, and open reading frame (ORF) detection.
 
-As a second-year Biotechnology student, I built this project to strengthen my understanding of molecular biology concepts while learning Python programming and bioinformatics workflows.
+As a second-year Biotechnology and Bioinformatics student, this project helped me revise the basics of molecular biology while giving me an opportunity to implement the basic Python I learned throughout the summer. Overall, this project was very informative and fun to build.
 
 ---
 
 ## Features
 
-- 📂 Reads one or more DNA sequences from a FASTA file
-- 📏 Calculates sequence length
-- 🧪 Calculates GC content (%)
-- 🔢 Counts occurrences of each nucleotide (A, T, G, C, and N)
-- 🔄 Generates the reverse complement of the DNA sequence
-- 🧬 Transcribes DNA into RNA
-- 🧫 Translates RNA into a one-letter amino acid sequence using the standard genetic code
-- 🚩 Identifies Open Reading Frames (ORFs)
-- ⭐ Reports the longest ORF found
-- ⚠️ Handles invalid nucleotide characters and missing input files gracefully
+- Reads one or more DNA sequences from a FASTA file
+- Calculates sequence length
+- Calculates GC content (%)
+- Counts occurrences of each nucleotide (A, T, G, C, and N)
+- Generates the reverse complement of the DNA sequence
+- Transcribes DNA into RNA
+- Translates RNA into a one-letter amino acid sequence using the standard genetic code
+- Identifies Open Reading Frames (ORFs)
+- Reports the longest ORF found
+- Handles invalid nucleotide characters and missing input files gracefully
 
 ---
 
@@ -222,7 +222,7 @@ Through this project, I gained practical experience with:
 
 **Sneha Sudheer**
 
-Second-year Biotechnology student with an interest in bioinformatics, computational biology, and Python programming.
+Second-year Biotechnology student at Indian Institute of Technology, Hyderabad with an interest in bioinformatics, computational biology, and Python programming.
 
 ---
 

@@ -222,7 +222,7 @@ Through this project, I gained practical experience with:
 
 **Sneha Sudheer**
 
-Second-year Biotechnology student at Indian Institute of Technology, Hyderabad with an interest in bioinformatics, computational biology, and Python programming.
+Second-year Biotechnology and Bioinformatics student at Indian Institute of Technology, Hyderabad with an interest in bioinformatics, computational biology, and Python programming.
 
 ---
 

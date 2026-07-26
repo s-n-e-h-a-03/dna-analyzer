@@ -71,7 +71,11 @@ def main():
         print("="*122)
         # total length of the sequence
         print("Total length of the sequence =", len(sequences[sequence]))
-        GC_calculator(sequences[sequence])
+        try:
+            GC_calculator(sequences[sequence])
+        except ValueError as e:
+            print(e)
+            return 
         complementary_strand(sequences[sequence])
         rna_seq =rna_producer(sequences[sequence])
         print()
@@ -96,8 +100,7 @@ def GC_calculator(seq):
         if i in counts:
             counts[i]+=1
         else:
-            print(f"Invalid character {i} found in the sequence. Please enter a valid DNA sequence.")
-            return
+            raise ValueError(f"Invalid character {i} found in the sequence. Please enter a valid DNA sequence.")
     gc = ((counts['G']+counts['C'])/len(seq))*100
     print(f"Percentage GC content in the sequence = {gc:.2f}%")
     # number of each nucleotide is calculated
